@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fff8ed;
+    color: #49301d;
+}
+
+header {
+    background: #9b3d17;
+    color: white;
+    padding: 18px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd58a;
+}
+
+.hero {
+    min-height: 430px;
+    background: linear-gradient(120deg, #f6c77b, #e68b49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 18px;
+}
+
+.hero-content p {
+    font-size: 19px;
+    margin-bottom: 28px;
+}
+
+.btn {
+    display: inline-block;
+    background: #963b18;
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.btn:hover {
+    background: #61230d;
+}
+
+.section {
+    padding: 65px 8%;
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 30px;
+    color: #9b3d17;
+    margin-bottom: 25px;
+}
+
+.section > p {
+    max-width: 750px;
+    margin: 12px auto;
+    line-height: 1.8;
+}
+
+.darshan {
+    background: #fff0d9;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 30px 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 18px #00000018;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+}
+
+.card h3 {
+    color: #a3471f;
+    margin: 15px 0;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+.symbol {
+    font-size: 45px;
+}
+
+.visit {
+    background: #ffe3b5;
+}
+
+.note {
+    font-size: 13px;
+    margin-top: 20px !important;
+}
+
+footer {
+    background: #783015;
+    color: white;
+    text-align: center;
+    padding: 30px 15px;
+    line-height: 2;
+}
+
+@media (max-width: 650px) {
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        margin: 7px;
+    }
+
+    .hero-content h1 {
+        font-size: 30px;
+    }
+
+    .section {
+        padding: 45px 5%;
+    }
+}
+
+.temple-photo {
+    text-align: center;
+    padding: 50px 20px;
+    background: #fff0d9;
+}
+
+.temple-photo h2 {
+    color: #9b3d17;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.temple-photo img {
+    width: 85%;
+    max-width: 850px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px #00000030;
+}
+
+.temple-photo p {
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+@media (max-width: 600px) {
+    .temple-photo img {
+        width: 100%;
+        height: 250px;
+    }
+}
